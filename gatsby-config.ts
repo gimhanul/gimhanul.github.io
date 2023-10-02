@@ -23,21 +23,30 @@ const config: GatsbyConfig = {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       // See the theme's README for all available options
       options: {
+        formatString: 'YYYY.MM.DD',
         navigation: [
           {
-            title: `Blog`,
+            title: `글,`,
             slug: `/blog`,
           },
           {
-            title: `About`,
+            title: `나,`,
             slug: `/about`,
           },
+          {
+            title: '상.',
+            slug: '/award',
+          }
         ],
         externalLinks: [
           {
             name: `GitHub`,
             url: `https://github.com/gimhanul`
           },
+          {
+            name: 'Email',
+            url: 'mailto:dev.gimhanul@gmail.com'
+          }
         ],
       },
     },
@@ -112,7 +121,7 @@ const config: GatsbyConfig = {
   allPost(sort: {date: DESC}) {
     nodes {
       title
-      date(formatString: "YYYY.MM.DD")
+      date(formatString: "MMMM D, YYYY")
       excerpt
       slug
     }
