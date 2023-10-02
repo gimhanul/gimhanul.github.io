@@ -8,14 +8,14 @@ const config: GatsbyConfig = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-minimal-blog/gatsby-config.mjs
-    siteTitle: `Minimal Blog`,
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
-    siteHeadline: `Minimal Blog - Gatsby Theme from @lekoarts`,
-    siteUrl: `https://minimal-blog.lekoarts.de`,
-    siteDescription: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.`,
+    siteTitle: `Ulog`,
+    siteTitleAlt: `Ulog`,
+    siteHeadline: `Ulog`,
+    siteUrl: `https://gimhanul.github.io`,
+    siteDescription: `gim.han.ul.blog`,
     siteImage: `/banner.jpg`,
-    siteLanguage: `en`,
-    author: `@lekoarts_de`,
+    siteLanguage: `ko`,
+    author: `@gimhanul`,
   },
   trailingSlash: `always`,
   plugins: [
@@ -35,12 +35,8 @@ const config: GatsbyConfig = {
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
-          },
-          {
-            name: `Homepage`,
-            url: `https://www.lekoarts.de?utm_source=minimal-blog&utm_medium=Starter`,
+            name: `GitHub`,
+            url: `https://github.com/gimhanul`
           },
         ],
       },
@@ -54,9 +50,9 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
-        short_name: `minimal-blog`,
-        description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
+        name: `Ulog`,
+        short_name: `Ulog`,
+        description: `gim.han.ul.blog`,
         start_url: `/`,
         background_color: `#fff`,
         // This will impact how browsers show your PWA/website
@@ -116,14 +112,14 @@ const config: GatsbyConfig = {
   allPost(sort: {date: DESC}) {
     nodes {
       title
-      date(formatString: "MMMM D, YYYY")
+      date(formatString: "YYYY.MM.DD")
       excerpt
       slug
     }
   }
 }`,
             output: `rss.xml`,
-            title: `Minimal Blog - @lekoarts/gatsby-theme-minimal-blog`,
+            title: `Ulog`
           },
         ],
       },
