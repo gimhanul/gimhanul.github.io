@@ -5,12 +5,12 @@ export default {
   useColorSchemeMediaQuery: true,
   colors: {
     ...baseTheme.colors,
-    primary: '#48bb78',
+    primary: '#68d391',
     modes: {
       ...baseTheme.colors.modes,
       light: {
         ...baseTheme.colors.modes.light,
-        background: '#F5F5F5',
+        background: '#fff',
       },
       dark: {
         ...baseTheme.colors.modes.dark,
