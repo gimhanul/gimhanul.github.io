@@ -8,11 +8,11 @@ tags:
 banner: ./U10_Form_Cover_FIX.png
 ---
 
-> 📌 단축키
-> F9 메인 함수의 entry point로 이동
-> F8 한줄한줄 실행
-> ctrl + F2 초기화
-> space 명령어 주작
+> 📌 단축키<br/>
+> F9 메인 함수의 entry point로 이동<br/>
+> F8 한줄한줄 실행<br/>
+> ctrl + F2 초기화<br/>
+> space 명령어 주작<br/>
 
 # Basic RCE L01
 
@@ -36,17 +36,17 @@ cmp eax, esi 구문을 실행하고 je 구문에서 같으면 점프한다.
 
 cmp eax, esi가 실행되는 곳에 breaking point를 걸고 값을 직접 입력해 바꿔준다.
 
-![](./two.png)
-
-![](./three.pne)
+| 실행             | 결과               |
+|----------------|------------------|
+| ![](./two.png) | ![](./three.png) |
 
 ### 조건문 바꾸기
 
 값이 같을 때 점프하는 je 구문(jump equal)을 다를 때 점프하도록 not 조건을 추가한다. (jump not equal)
 
-![](./four.png)
-
-![](./three.pne)
+| 실행              | 결과               |
+|-----------------|------------------|
+| ![](./four.png) | ![](./three.png) |
 
 ## 정답
 
