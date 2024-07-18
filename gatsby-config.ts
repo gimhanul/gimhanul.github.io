@@ -30,12 +30,8 @@ const config: GatsbyConfig = {
             slug: `/blog`,
           },
           {
-            title: `나,`,
+            title: `나.`,
             slug: `/about`,
-          },
-          {
-            title: '상.',
-            slug: '/award',
           }
         ],
         externalLinks: [
