@@ -11,7 +11,7 @@ const config: GatsbyConfig = {
     siteTitle: `Ulog`,
     siteTitleAlt: `Ulog`,
     siteHeadline: `Ulog`,
-    siteUrl: `https://blog.hanul.tech`,
+    siteUrl: `https://gimhanul.github.io`,
     siteDescription: `김한울 블로그입니다. 0_0v`,
     siteImage: `/banner.png`,
     siteLanguage: `ko`,
@@ -57,7 +57,7 @@ const config: GatsbyConfig = {
       options: {
         name: `Ulog`,
         short_name: `Ulog`,
-        description: `gim.han.ul.blog`,
+        description: `김한울 블로그`,
         start_url: `/`,
         background_color: `#fff`,
         // This will impact how browsers show your PWA/website
