@@ -1,0 +1,3 @@
+User-agent: *
+
+sitemap: https://gimhanul.github.io/sitemap-index.xml
