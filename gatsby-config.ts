@@ -12,7 +12,7 @@ const config: GatsbyConfig = {
     siteTitleAlt: `Ulog`,
     siteHeadline: `Ulog`,
     siteUrl: `https://gimhanul.github.io`,
-    siteDescription: `김한울 블로그입니다. 0_0v`,
+    siteDescription: `^__^`,
     siteImage: `/banner.png`,
     siteLanguage: `ko`,
     author: `@gimhanul`,
